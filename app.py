@@ -1,6 +1,6 @@
 import os
-
 import dash
+import pandas as pd
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -10,20 +10,21 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 server = app.server
 
-app.layout = html.Div([
-    html.H2('Hello World'),
-    dcc.Dropdown(
-        id='dropdown',
-        options=[{'label': i, 'value': i} for i in ['LA', 'NYC', 'MTL']],
-        value='LA'
-    ),
-    html.Div(id='display-value')
-])
+# Components
 
-@app.callback(dash.dependencies.Output('display-value', 'children'),
-              [dash.dependencies.Input('dropdown', 'value')])
-def display_value(value):
-    return 'You have selected "{}"'.format(value)
+title = html.H2('Global Risks')
+dropdown = dcc.Dropdown(
+                id='dropdown',
+                options=[{'label': i, 'value': i} for i in ['LA', 'NYC', 'MTL']],
+                value='LA'
+            )
+
+
+
+app.layout = html.Div([
+    title, 
+    dropdown
+])
 
 if __name__ == '__main__':
     app.run_server(debug=True)
