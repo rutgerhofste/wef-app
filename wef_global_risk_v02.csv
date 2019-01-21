@@ -1,0 +1,280 @@
+﻿id,risk,year,x,y,risk_renamed,category
+1,Proliferation of orbital debris,2012,2.991,2.529,Proliferation of orbital debris,Technological
+2,Failure of intellectual property regime,2012,3.024,2.734,Failure of intellectual property regime,Technological
+3,Unforeseen negative consequences of regulation,2012,3.04,2.769,Unforeseen negative consequences of regulation,Economic
+4,Militarization of space,2012,2.651,2.894,Militarization of space,Geopolitical
+5,Unintended consequences of nanotechnology,2012,2.67,2.908,Unforeseen consequencesof nanotechnology,Technological
+6,Vulnerability to geomagnetic storms,2012,2.744,2.935,Vulnerability to geomagnetic storms,Environmental
+7,Ineffective drug policies,2012,3.24,2.918,Ineffective illicit drug policies,Societal
+8,Unilateral resource nationalization,2012,3.151,3.009,Unilateral resource nationalization,Geopolitical
+9,Widespread illicit trade,2012,3.373,3.038,Illicit trade,Economic
+10,Species overexploitation,2012,3.524,3.059,Species overexploitation,Environmental
+11,Unintended consequences of climate change mitigation,2012,2.792,3.047,Unforeseen consequences of climate-change mitigation,Technological
+12,Unintended consequences of new lifescience technologies,2012,2.78,3.068,Unforeseen consequences of new life science technologies,Technological
+13,Hard landing of an emerging economy,2012,3.064,3.117,Hard landing of an emerging economy,Economic
+14,Backlash against globalization,2012,3.135,3.096,Backlash against globalization,Societal
+15,Massive digital misinformation,2012,3.187,3.136,Massive digital misinformation,Technological
+16,Entrenched organized crime,2012,3.465,3.219,Entrenched organized crime,Geopolitical
+17,Mismanaged urbanization,2012,3.643,3.243,Failure of urban planning,Societal
+18,Massive incident of data fraud or theft,2012,3.395,3.224,Data fraud or theft,Technological
+19,Mineral resource supply vulnerability,2012,3.268,3.225,Mineral resource supply vulnerability,Technological
+20,Rising rates of chronic disease,2012,3.284,3.247,Rising rates of chronic disease,Societal
+21,Unmanaged migration,2012,3.271,3.274,Unmanaged migration,Societal
+22,Prolonged infrastructure neglect,2012,3.318,3.262,Prolonged infrastructure neglect,Economic
+23,Mismanagement of population ageing,2012,3.424,3.362,Mismanagement of population ageing,Societal
+24,Chronic labour market imbalances,2012,3.41,3.357,Chronic labour market imbalances,Economic
+25,Pervasive entrenched corruption,2012,3.709,3.405,Pervasive entrenched corruption,Geopolitical
+26,Critical fragile states,2012,3.685,3.438,Critical fragile states,Geopolitical
+27,Cyberattacks,2012,3.803,3.448,Cyberattacks,Technological
+28,Land and waterway use mismanagement,2012,3.599,3.465,Land and waterway use mismanagement,Environmental
+29,Antibiotic-resistant bacteria,2012,3.514,3.473,Antibiotic-resistant bacteria,Societal
+30,Persistent extreme weather,2012,3.397,3.464,Persistent extreme weather,Environmental
+31,Irremediable pollution,2012,3.259,3.482,Irremediable pollution,Environmental
+32,Unprecedented geophysical destruction,2012,2.853,3.39,Unprecedented geophysical destruction,Environmental
+33,Unmanageable inflation or deflation,2012,2.821,3.447,Unmanageable inflation or deflation,Economic
+34,Vulnerability to pandemics,2012,3.149,3.511,Vulnerability to pandemics,Societal
+35,Rising religious fanaticism,2012,3.272,3.51,Rising religious fanaticism,Societal
+36,Unsustainable population growth,2012,3.04,3.551,Unsustainable population growth,Societal
+37,Failure of diplomatic conflict resolution,2012,3.373,3.513,Failure of diplomatic conflict resolution,Geopolitical
+38,Rising greenhouse gas emissions,2012,3.886,3.622,Rising greenhouse gas emissions,Environmental
+39,Failure of climate change adaptation,2012,3.613,3.596,Failure of climate-change mitigation and adaptation,Environmental
+40,Recurring liquidity crises,2012,3.491,3.614,Recurring liquidity crises,Economic
+41,Terrorism,2012,3.592,3.666,Terrorist attacks,Geopolitical
+42,Severe income disparity,2012,4.037,3.738,Severe income disparity,Economic
+43,Chronic fiscal imbalances,2012,4.031,3.868,Chronic fiscal imbalances,Economic
+44,Water supply crises,2012,3.79,3.988,Water crises,Societal
+45,Extreme volatility in energy and agriculture prices,2012,3.63,3.81,Extreme volatility in energy and agriculture prices,Economic
+46,Food shortage crises,2012,3.583,3.925,Food crises,Societal
+47,Major systemic financial failure,2012,3.14,4.076,Major systemic financial failure,Economic
+48,Diffusion of weapons of mass destruction,2012,2.877,3.783,Diffusion of weapons of mass destruction,Geopolitical
+49,Critical systems failure,2012,2.932,3.675,Critical systems failure,Technological
+50,Global governance failure,2012,3.325,3.72,Failure of regional or global governance,Geopolitical
+51,Proliferation of orbital debris,2013,2.864,2.796,Proliferation of orbital debris,Technological
+52,Unforeseen consequencesof nanotechnology,2013,2.794,2.99,Unforeseen consequencesof nanotechnology,Technological
+53,Failure of intellectual property regime,2013,2.999,2.991,Failure of intellectual property regime,Technological
+54,Widespread illicit trade,2013,3.43,3.028,Illicit trade,Economic
+55,Ineffective illicit drug policies,2013,3.414,3.034,Ineffective illicit drug policies,Societal
+56,Vulnerability to geomagnetic storms,2013,2.592,3.157,Vulnerability to geomagnetic storms,Environmental
+57,Militarization of space,2013,2.808,3.161,Militarization of space,Geopolitical
+58,Unforeseen negative consequences of regulation,2013,3.308,3.181,Unforeseen negative consequences of regulation,Economic
+59,Prolonged infrastructure neglect,2013,3.317,3.186,Prolonged infrastructure neglect,Economic
+60,Entrenched organized crime,2013,3.46,3.209,Entrenched organized crime,Geopolitical
+61,Massive incident of data fraud or theft,2013,3.514,3.273,Data fraud or theft,Technological
+62,Massive digital misinformation,2013,3.36,3.245,Massive digital misinformation,Technological
+63,Rising rates of chronic disease,2013,3.434,3.345,Rising rates of chronic disease,Societal
+64,Unforeseen consequences of climate-change mitigation,2013,3.225,3.352,Unforeseen consequences of climate-change mitigation,Technological
+65,Unprecedented geophysical destruction,2013,3.176,3.334,Unprecedented geophysical destruction,Environmental
+66,Backlash against globalization,2013,3.142,3.339,Backlash against globalization,Societal
+67,Unforeseen consequences of new life science technologies,2013,3.114,3.357,Unforeseen consequences of new life science technologies,Technological
+68,Species overexploitation,2013,3.679,3.356,Species overexploitation,Environmental
+69,Mismanaged urbanization,2013,3.69,3.385,Failure of urban planning,Societal
+70,Unmanaged migration,2013,3.421,3.39,Unmanaged migration,Societal
+71,Unilateral resource nationalization,2013,3.347,3.403,Unilateral resource nationalization,Geopolitical
+72,Mineral resource supply vulnerability,2013,3.42,3.451,Mineral resource supply vulnerability,Technological
+73,Pervasive entrenched corruption,2013,3.742,3.469,Pervasive entrenched corruption,Geopolitical
+74,Cyberattacks,2013,3.822,3.514,Cyberattacks,Technological
+75,Land and waterway use mismanagement,2013,3.608,3.57,Land and waterway use mismanagement,Environmental
+76,Hard landing of an emerging economy,2013,3.462,3.491,Hard landing of an emerging economy,Economic
+77,Critical fragile states,2013,3.379,3.533,Critical fragile states,Geopolitical
+78,Antibiotic-resistant bacteria,2013,3.418,3.567,Antibiotic-resistant bacteria,Societal
+79,Unmanageable inflation or deflation,2013,3.18,3.569,Unmanageable inflation or deflation,Economic
+80,Critical systems failure,2013,2.962,3.616,Critical systems failure,Technological
+81,Irremediable pollution,2013,3.347,3.651,Irremediable pollution,Environmental
+82,Recurring liquidity crises,2013,3.358,3.657,Recurring liquidity crises,Economic
+83,Terrorism,2013,3.639,3.587,Terrorist attacks,Geopolitical
+84,Rising religious fanaticism,2013,3.658,3.639,Rising religious fanaticism,Societal
+85,Persistent extreme weather,2013,3.698,3.651,Persistent extreme weather,Environmental
+86,Mismanagement of population ageing,2013,3.829,3.666,Mismanagement of population ageing,Societal
+87,Failure of diplomatic conflict resolution,2013,3.58,3.691,Failure of diplomatic conflict resolution,Geopolitical
+88,Unsustainable population growth,2013,3.448,3.705,Unsustainable population growth,Societal
+89,Chronic labour market imbalances,2013,3.682,3.732,Chronic labour market imbalances,Economic
+90,Severe income disparity,2013,4.221,3.803,Severe income disparity,Economic
+91,Global governance failure,2013,3.694,3.789,Failure of regional or global governance,Geopolitical
+92,Food shortage crises,2013,3.598,3.827,Food crises,Societal
+93,Extreme volatility in energy and agriculture prices,2013,3.713,3.878,Extreme volatility in energy and agriculture prices,Economic
+94,Failure of climate change adaptation,2013,3.763,3.898,Failure of climate-change mitigation and adaptation,Environmental
+95,Rising greenhouse gas emissions,2013,3.938,3.881,Rising greenhouse gas emissions,Environmental
+96,Chronic fiscal imbalances,2013,3.967,3.97,Chronic fiscal imbalances,Economic
+97,Water supply crises,2013,3.849,3.984,Water crises,Societal
+98,Diffusion of weapons of mass destruction,2013,3.226,3.915,Diffusion of weapons of mass destruction,Geopolitical
+99,Major systemic financial failure,2013,3.44,4.043,Major systemic financial failure,Economic
+100,Vulnerability to pandemics,2013,3.2,3.601,Vulnerability to pandemics,Societal
+101,Organized crime and illicit trade,2014,3.799,3.882,Organized crime and illicit trade,Geopolitical
+102,Chronic diseases,2014,3.385,4.015,Chronic diseases,Societal
+103,Mismanaged urbanization,2014,4.721,3.998,Failure of urban planning,Societal
+104,Decline of importance of US dollar,2014,3.794,3.978,Decline of importance of US dollar,Economic
+105,Failure of critical infrastructure,2014,3.822,4.12,Failure of critical infrastructure,Economic
+106,Corruption,2014,4.288,4.124,Corruption,Geopolitical
+107,Economic and resource nationalization,2014,4.127,4.171,Economic and resource nationalization,Geopolitical
+108,Interstate conflict,2014,4.511,4.352,Interstate conflict,Geopolitical
+109,Oil price shock,2014,3.563,4.39,Oil price shock,Economic
+110,State collapse,2014,3.545,4.428,State collapse or crisis,Geopolitical
+111,Terrorist attacks,2014,4.124,4.442,Terrorist attacks,Geopolitical
+112,Liquidity crises,2014,3.876,4.498,Liquidity crises,Economic
+113,Man-made environmental catastrophes,2014,4.503,4.453,Man-made environmentaldisasters,Environmental
+114,Data fraud or theft,2014,4.894,4.476,Data fraud or theft,Technological
+115,Antibiotic-resistant bacteria,2014,4.513,4.518,Antibiotic-resistant bacteria,Societal
+116,Natural catastrophes,2014,4.535,4.562,Natural disasters,Environmental
+117,Food crises,2014,4.375,4.59,Food crises,Societal
+118,Pandemic,2014,3.773,4.656,Vulnerability to pandemics,Societal
+119,Weapons of mass destruction,2014,3.147,4.747,Weapons of mass destruction,Geopolitical
+120,Global governance failure,2014,4.065,4.699,Failure of regional or global governance,Geopolitical
+121,Political and social instability,2014,4.213,4.755,Political and social instability,Societal
+122,Failure of financial mechanism or institution,2014,4.265,4.752,Failure of financial mechanism or institution,Economic
+123,Cyberattacks,2014,4.902,4.81,Cyberattacks,Technological
+124,Income disparity,2014,5.445,4.823,Income disparity,Societal
+125,Extreme weather events,2014,5.392,4.89,Extreme weather events,Environmental
+126,Biodiversity loss and ecosystem collapse,2014,4.432,4.859,Biodiversity loss and ecosystem collapse,Environmental
+127,Critical information infrastructure breakdown,2014,3.827,4.9,Critical information infrastructure breakdown,Technological
+128,Water crises,2014,4.801,5.09,Water crises,Societal
+129,Fiscal crises,2014,4.648,5.15,Fiscal crises,Economic
+130,Climate change,2014,4.985,5.11,Climate change,Environmental
+131,Unemployment or underemployment,2014,5.119,5.041,Unemployment or underemployment,Economic
+132,Failure of urban planning,2015,4.709,3.793,Failure of urban planning,Societal
+133,Man-made environmental catastophes,2015,5.058,4.246,Man-made environmental disasters,Environmental
+134,Failure of critical infrastructure,2015,4.258,4.297,Failure of critical infrastructure,Economic
+135,Deflation,2015,4.302,4.332,Deflation,Economic
+136,Unmanageable inflation,2015,3.486,4.411,Unmanageable inflation,Economic
+137,Failure of urban planning,2015,4.711,3.793,Failure of urban planning,Societal
+138,Natural catastrophes,2015,5.314,4.355,Natural disasters,Environmental
+139,Misuse of technologies,2015,4.315,4.387,Misuse of technologies,Technological
+140,Large-scale involuntary migration,2015,4.817,4.443,Large-scale involuntary migration,Societal
+141,Data fraud or theft,2015,5.179,4.463,Data fraud or theft,Technological
+142,State collapse or crisis,2015,5.376,4.486,State collapse or crisis,Geopolitical
+143,Extreme weather events,2015,5.575,4.501,Extreme weather events,Environmental
+144,Failure of national governance,2015,5.48,4.56,Failure of national governance,Geopolitical
+145,Profound social instability,2015,4.903,4.803,Profound social instability,Societal
+146,Food crises,2015,4.86,4.811,Food crises,Societal
+147,Failure of financial mechanism or institution,2015,4.529,4.876,Failure of financial mechanism or institution,Economic
+148,Biodiversity loss and ecosystem collapse,2015,4.53,4.946,Biodiversity loss and ecosystem collapse,Environmental
+149,Terrorist attacks,2015,4.913,4.893,Terrorist attacks,Geopolitical
+150,Asset bubbles in a major economy,2015,4.969,4.905,Asset bubbles in a major economy,Economic
+151,Cyberattacks,2015,5.083,4.94,Cyberattacks,Technological
+152,Unemployment or underemployment,2015,5.342,5.024,Unemployment or underemployment,Economic
+153,Interstate conflict,2015,5.716,5.161,Interstate conflict,Geopolitical
+154,Failure of climate-change mitigation and adaptation,2015,5.288,5.109,Failure of climate-change mitigation and adaptation,Environmental
+155,Water crises,2015,5.232,5.265,Water crises,Societal
+156,Fiscal crises,2015,4.81,5.078,Fiscal crises,Economic
+157,Energy price shock,2015,4.46,5.107,Energy price shock,Economic
+158,Critical information infrastructure breakdown,2015,4.307,5.102,Critical information infrastructure breakdown,Technological
+159,Spread of infectious diseases,2015,4.492,5.228,Spread of infectious diseases,Societal
+160,Weapons of mass destruction,2015,3.704,5.209,Weapons of mass destruction,Geopolitical
+161,Failure of urban planning,2016,4.736,3.768,Failure of urban planning,Societal
+162,Failure of critical infrastructure,2016,4.331,4.124,Failure of critical infrastructure,Economic
+163,Illicit trade,2016,5.152,4.228,Illicit trade,Economic
+164,Man-made environmental catastrophes,2016,5.069,4.33,Man-made environmentaldisasters,Environmental
+165,State collapse or crisis,2016,5.077,4.391,State collapse or crisis,Geopolitical
+166,Data fraud or theft,2016,5.196,4.454,Data fraud or theft,Technological
+167,Failure of national governance,2016,5.291,4.474,Failure of national governance,Geopolitical
+168,Natural catastrophes,2016,5.305,4.477,Natural disasters,Environmental
+169,Unmanageable inflation,2016,3.584,4.388,Unmanageable inflation,Economic
+170,Deflation,2016,4.521,4.519,Deflation,Economic
+171,Adverse consequences of technological advances,2016,4.272,4.556,Adverse consequences of technological advances,Technological
+172,Extreme weather events,2016,5.613,4.646,Extreme weather events,Environmental
+173,Failure of financial mechanism or institution,2016,4.536,4.812,Failure of financial mechanism or institution,Economic
+174,Critical information infrastructure breakdown,2016,4.226,4.843,Critical information infrastructure breakdown,Technological
+175,Terrorist attacks,2016,4.826,4.839,Terrorist attacks,Geopolitical
+176,Food crises,2016,4.811,4.956,Food crises,Societal
+177,Interstate conflict,2016,5.371,4.919,Interstate conflict,Geopolitical
+178,Unemployment or underemployment,2016,5.201,4.927,Unemployment or underemployment,Economic
+179,Cyberattacks,2016,5.132,4.973,Cyberattacks,Technological
+180,Profound social instability,2016,5.081,4.984,Profound social instability,Societal
+181,Asset bubble,2016,5.036,5.004,Asset bubbles in a major economy,Economic
+182,Fiscal crises,2016,4.969,5.051,Fiscal crises,Economic
+183,Biodiversity loss and ecosystem collapse,2016,4.76,5.137,Biodiversity loss and ecosystem collapse,Environmental
+184,Energy price shock,2016,4.721,5.146,Energy price shock,Economic
+185,Spread of infectious diseases,2016,4.152,5.014,Spread of infectious diseases,Societal
+186,Weapons of mass destruction,2016,3.716,5.216,Weapons of mass destruction,Geopolitical
+187,Water crises,2016,5.196,5.216,Water crises,Societal
+188,Large-scale involuntary migration,2016,5.81,5.188,Large-scale involuntary migration,Societal
+189,Failure of climate-change mitigation and adaptation,2016,5.4,5.333,Failure of climate-change mitigation and adaptation,Environmental
+190,Adverse consequences of technological advances,2017,4.352,2.959,Adverse consequences of technological advances,Technological
+191,Failure of urban planning,2017,4.732,2.993,Failure of urban planning,Societal
+192,Unmanageable inflation,2017,3.614,3.124,Unmanageable inflation,Economic
+193,Illicit trade,2017,5.462,3.144,Illicit trade,Economic
+194,Deflation,2017,4.512,3.2,Deflation,Economic
+195,Data fraud or theft,2017,5.553,3.268,Data fraud or theft,Technological
+196,Failure of critical infrastructure,2017,4.461,3.319,Failure of critical infrastructure,Economic
+197,Energy price shock,2017,4.631,3.33,Energy price shock,Economic
+198,Critical information infrastructure breakdown,2017,4.321,3.384,Critical information infrastructure breakdown,Technological
+199,Failure of regional or global governance,2017,4.768,3.396,Failure of regional or global governance,Geopolitical
+200,Profound social instability,2017,4.85,3.431,Profound social instability,Societal
+201,State collapse or crisis,2017,5.015,3.41,State collapse or crisis,Geopolitical
+202,Asset bubbles in a major economy,2017,5.069,3.431,Asset bubbles in a major economy,Economic
+203,Failure of financial mechanism or institution,2017,4.675,3.48,Failure of financial mechanism or institution,Economic
+204,Failure of national governance,2017,5.184,3.506,Failure of national governance,Geopolitical
+205,Man-made environmental disasters,2017,5.286,3.526,Man-made environmental disasters,Environmental
+206,Biodiversity loss and ecosystem collapse,2017,4.828,3.526,Biodiversity loss and ecosystem collapse,Environmental
+207,Fiscal crises,2017,4.87,3.547,Fiscal crises,Economic
+208,Cyberattacks,2017,5.514,3.54,Cyberattacks,Technological
+209,Spread of infectious diseases,2017,4.325,3.563,Spread of infectious diseases,Societal
+210,Food crises,2017,4.785,3.596,Food crises,Societal
+211,Unemployment or underemployment,2017,5.059,3.575,Unemployment or underemployment,Economic
+212,Interstate conflict,2017,5.186,3.587,Interstate conflict,Geopolitical
+213,Terrorist attacks,2017,5.585,3.592,Terrorist attacks,Geopolitical
+214,Large-scale involuntary migration,2017,5.635,3.65,Large-scale involuntary migration,Societal
+215,Failure of climate-change mitigation and adaptation,2017,5.181,3.668,Failure of climate-change mitigation and adaptation,Environmental
+216,Water crises,2017,4.932,3.772,Water crises,Societal
+217,Natural disasters,2017,5.611,3.772,Natural disasters,Environmental
+218,Extreme weather events,2017,5.883,3.82,Extreme weather events,Environmental
+219,Weapons of mass destruction,2017,3.862,3.928,Weapons of mass destruction,Geopolitical
+220,Unmanageable inflation,2018,2.46,2.931,Unmanageable inflation,Economic
+221,Deflation,2018,2.955,2.941,Deflation,Economic
+222,Illicit trade,2018,3.663,2.981,Illicit trade,Economic
+223,Failure of urban planning,2018,3.506,3.054,Failure of urban planning,Societal
+224,Adverse consequences of technological advances,2018,3.328,3.096,Adverse consequences of technological advances,Technological
+225,Failure of financial mechanism or institution,2018,3.172,3.161,Failure of financial mechanism or institution,Economic
+226,Energy price shock,2018,3.094,3.158,Energy price shock,Economic
+227,Failure of critical infrastructure,2018,3.306,3.246,Failure of critical infrastructure,Economic
+228,State collapse or crisis,2018,3.359,3.25,State collapse or crisis,Geopolitical
+229,Asset bubbles in a major economy,2018,3.595,3.285,Asset bubbles in a major economy,Economic
+230,Data fraud or theft,2018,3.975,3.306,Data fraud or theft,Technological
+231,Terrorist attacks,2018,3.722,3.36,Terrorist attacks,Geopolitical
+232,Failure of national governance,2018,3.509,3.353,Failure of national governance,Geopolitical
+233,Unemployment or underemployment,2018,3.438,3.355,Unemployment or underemployment,Economic
+234,Fiscal crises,2018,3.299,3.356,Fiscal crises,Economic
+235,Profound social instability,2018,3.33,3.369,Profound social instability,Societal
+236,Critical information infrastructure breakdown,2018,3.229,3.439,Critical information infrastructure breakdown,Technological
+237,Interstate conflict,2018,3.492,3.444,Interstate conflict,Geopolitical
+238,Spread of infectious diseases,2018,3.031,3.501,Spread of infectious diseases,Societal
+239,Food crises,2018,3.44,3.558,Food crises,Societal
+240,Biodiversity loss and ecosystem collapse,2018,3.586,3.543,Biodiversity loss and ecosystem collapse,Environmental
+241,Large-scale involuntary migration,2018,3.775,3.517,Large-scale involuntary migration,Societal
+242,Man-made environmental disasters,2018,3.774,3.462,Man-made environmental disasters,Environmental
+243,Cyberattacks,2018,4.005,3.641,Cyberattacks,Technological
+244,Water crises,2018,3.575,3.707,Water crises,Societal
+245,Failure of climate-change mitigation and adaptation,2018,3.828,3.778,Failure of climate-change mitigation and adaptation,Environmental
+246,Natural disasters,2018,4.173,3.864,Natural disasters,Environmental
+247,Extreme weather events,2018,4.405,3.973,Extreme weather events,Environmental
+248,Weapons of mass destruction,2018,3.025,3.993,Weapons of mass destruction,Geopolitical
+249,Failure of regional or global governance,2018,3.316,3.297,Failure of regional or global governance,Geopolitical
+250,Deflation,2019,2.772,2.893,Deflation,Economic
+251,Illicit trade,2019,3.543,2.927,Illicit trade,Economic
+252,Failure of urban planning,2019,3.498,3.111,Failure of urban planning,Societal
+253,Adverse consequences of technological advances,2019,3.32,3.196,Adverse consequences of technological advances,Technological
+254,Unmanageable inflation,2019,2.656,3.169,Unmanageable inflation,Economic
+255,Energy price shock,2019,3.025,3.201,Energy price shock,Economic
+256,Profound social instability,2019,3.38,3.288,Profound social instability,Societal
+257,Failure of critical infrastructure,2019,3.218,3.294,Failure of critical infrastructure,Economic
+258,Unemployment or underemployment,2019,3.318,3.33,Unemployment or underemployment,Economic
+259,State collapse or crisis,2019,3.017,3.365,State collapse or crisis,Geopolitical
+260,Terrorist attacks,2019,3.163,3.396,Terrorist attacks,Geopolitical
+261,Failure of regional or global governance,2019,3.367,3.382,Failure of regional or global governance,Geopolitical
+262,Asset bubbles in a major economy,2019,3.62,3.373,Asset bubbles in a major economy,Economic
+263,Data fraud or theft,2019,3.88,3.425,Data fraud or theft,Technological
+264,Large-scale involuntary migration,2019,3.721,3.516,Large-scale involuntary migration,Societal
+265,Interstate conflict,2019,3.548,3.497,Interstate conflict,Geopolitical
+266,Failure of regional or global governance,2019,3.532,3.463,Failure of regional or global governance,Geopolitical
+267,Fiscal crises,2019,3.375,3.491,Fiscal crises,Economic
+268,Food crises,2019,3.117,3.441,Food crises,Societal
+269,Failure of financial mechanism or institution,2019,3.04,3.46,Failure of financial mechanism or institution,Economic
+270,Spread of infectious diseases,2019,3.071,3.589,Spread of infectious diseases,Societal
+271,Critical information infrastructure breakdown,2019,3.381,3.7,Critical information infrastructure breakdown,Technological
+272,Water crises,2019,3.638,3.755,Water crises,Societal
+273,Biodiversity loss and ecosystem collapse,2019,3.698,3.725,Biodiversity loss and ecosystem collapse,Environmental
+274,Man-made environmental disasters,2019,3.767,3.593,Man-made environmental disasters,Environmental
+275,Cyberattacks,2019,3.831,3.717,Cyberattacks,Technological
+276,Natural disasters,2019,3.965,3.753,Natural disasters,Environmental
+277,Failure of climate-change mitigation and adaptation,2019,4.057,3.874,Failure of climate-change mitigation and adaptation,Environmental
+278,Extreme weather events,2019,4.354,3.87,Extreme weather events,Environmental
+279,Weapons of mass destruction,2019,2.456,3.932,Weapons of mass destruction,Geopolitical
