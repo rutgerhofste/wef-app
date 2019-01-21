@@ -6,7 +6,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 
-df = pd.read_csv("wef_global_risk_v02.csv")
+df = pd.read_csv("wef_global_risk_v03.csv")
 
 
 
@@ -40,7 +40,11 @@ server = app.server
 
 # Components
 
-# Create a trace
+# Create a trace for each risk category 
+
+for risk_renamed in 
+
+
 trace = go.Scatter(
     x = df_test["x"],
     y = df_test["y"],
