@@ -13,17 +13,14 @@ server = app.server
 # Components
 
 title = html.H2('Global Risks')
-dropdown = dcc.Dropdown(
-                id='dropdown',
-                options=[{'label': i, 'value': i} for i in ['LA', 'NYC', 'MTL']],
-                value='LA'
-            )
-
-
+slider =     dcc.Slider(min=0,
+                        max=9,
+                        marks={i: 'Label {}'.format(i) if i == 1 else str(i) for i in range(1, 6)},
+                        value=5)
 
 app.layout = html.Div([
     title, 
-    dropdown
+    slider
 ])
 
 if __name__ == '__main__':
