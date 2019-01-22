@@ -97,11 +97,11 @@ dropdown = dcc.Dropdown(id="dropdown",
                         value=["Water crises","Extreme weather events"],
                         multi=True)
 
-slider =     dcc.RangeSlider(id='year-slider',
-                        min=df_total.year.min(),
-                        max=df_total.year.max(),
-                        marks={str(year): str(year) for year in df['year'].unique()},
-                        value=[df_total.year.max()-1,df_total.year.max()])
+slider = dcc.RangeSlider(id='year-slider',
+                         min=df_total.year.min(),
+                         max=df_total.year.max(),
+                         marks={str(year): str(year) for year in df['year'].unique()},
+                         value=[df_total.year.max(),df_total.year.max()])
 scatter = dcc.Graph(id="global_risk_scatter",
                     style={"margin-top": "50",
                            "margin-left": "50",
