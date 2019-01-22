@@ -59,55 +59,124 @@ def prepare_dataframe(df):
     df_total["y_rank"] = df_total.groupby("year")["y"].rank(axis=0,method="dense",ascending=False)
     df_total["xy_rank"] = df_total.groupby("year")["xy"].rank(axis=0,method="dense",ascending=False)
     df_total["xy_norm_rank"] = df_total.groupby("year")["xy_norm"].rank(axis=0,method="dense",ascending=False)
+    df_total["text"] = df_total.apply(create_label,axis=1)
     return df_total
 
+def create_label(row):
+    text = row["risk_renamed"] + ", " + str(row["year"])
+    return text
+
+def populate_dropdown(df):
+    """ Populate dropdown menu
+
+    Args:
+        df(dataframe): dataframe with options
+    """
+    options = []
+
+    all_risks = list(df.risk_renamed.unique())
+    if all_risks:
+        all_risks.sort()
+        for item in all_risks:
+            options.append({"label":item,"value":item})
+        return options
+    else:
+        return options
+
 df_total = prepare_dataframe(df)
+
+options = populate_dropdown(df_total)
 
 # Components
 
 
 title = html.H2('Global Risks')
-slider =     dcc.Slider(id='year-slider',
+
+dropdown = dcc.Dropdown(id="dropdown",
+                        options=options,
+                        value=["Water crises","Extreme weather events"],
+                        multi=True)
+
+slider =     dcc.RangeSlider(id='year-slider',
                         min=df_total.year.min(),
                         max=df_total.year.max(),
                         marks={str(year): str(year) for year in df['year'].unique()},
-                        value=df_total.year.max())
+                        value=[df_total.year.max()-1,df_total.year.max()])
 scatter = dcc.Graph(id="global_risk_scatter",
                     style={"margin-top": "50",
                            "margin-left": "50",
                            "margin-right": "50"})
+title2 = html.H2('Global Risks (likelihood times impact) Ranked')
+
+line = dcc.Graph(id="global_risk_line",
+                 style={"margin-top": "50",
+                        "margin-left": "50",
+                        "margin-right": "50"})
+
 
 
 app.layout = html.Div([
     title,
-    scatter,
-    html.Div(slider,style={"margin-top": "50",
+    html.Div([dropdown,slider],style={"margin-top": "50",
                            "margin-left": "50",
-                           "margin-right": "50"})
+                           "margin-right": "50"}),
+    scatter,
+    title2,
+    line
 ])
 
 
 @app.callback(
     dash.dependencies.Output('global_risk_scatter', 'figure'),
-    [dash.dependencies.Input('year-slider', 'value')])
-def update_figure(selected_year):
-    df_filtered = df_total[df_total.year == selected_year]
+    [dash.dependencies.Input('year-slider', 'value'),
+     dash.dependencies.Input('dropdown','value')])
+def update_figure(slider_years,dropdown_values):
+    df_filtered = df_total[(df_total.year >= slider_years[0]) & (df_total.year <= slider_years[1])]
     traces = []
-    for i in df_filtered.category.unique():
-        df_by_category = df_filtered[df_filtered['category'] == i]
+    risks = list(df_filtered.risk_renamed.unique())
+    if risks:
+        risks.sort()
+    else:
+        pass
+
+    for risk in risks:
+        df_by_risk= df_filtered[df_filtered['risk_renamed'] == risk]
+        category = df_by_risk["category"].iloc[0]
+
         traces.append(go.Scatter(
-            x=df_by_category['x_norm'],
-            y=df_by_category['y_norm'],
-            text=df_by_category['risk_renamed'],
-            mode='markers',
-            opacity=0.7,
+            x=df_by_risk['x_norm'],
+            y=df_by_risk['y_norm'],
+            text= df_by_risk["text"],
+            mode='lines+markers',
+            opacity=0.2,
             marker={
                 'size': 15,
                 'line': {'width': 0.5, 'color': 'black'},
-                'color':colors[i],
+                'color': colors[category],
+                'symbol':'diamond-open'
+            },
+            name=risk,
+            showlegend=False
+        ))
+
+    for dropdown_value in dropdown_values:
+        df_filtered = df_total[(df_total.year >= slider_years[0]) & (df_total.year <= slider_years[1])]
+        df_by_risk= df_filtered[df_filtered['risk_renamed'] == dropdown_value]
+        category = df_by_risk["category"].iloc[0]
+        traces.append(go.Scatter(
+            x=df_by_risk['x_norm'],
+            y=df_by_risk['y_norm'],
+            text= df_by_risk["text"],
+            mode='lines+markers',
+            opacity=1,
+            marker={
+                'size': 15,
+                'line': {'width': 0.5, 'color': 'black'},
+                'color': colors[category],
                 'symbol':'diamond'
             },
-            name=i
+            name=risk,
+            showlegend=False
         ))
 
     return {
@@ -116,10 +185,73 @@ def update_figure(selected_year):
             xaxis={'title': 'Normalized Likelihood','range': [-3, 3]},
             yaxis={'title': 'Normalized Impact', 'range': [-3, 3]},
             margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
-            legend={'x': 0, 'y': 1},
             hovermode='closest'
         )
     }
+
+@app.callback(
+    dash.dependencies.Output('global_risk_line', 'figure'),
+    [dash.dependencies.Input('year-slider', 'value'),
+     dash.dependencies.Input('dropdown','value')])
+def update_line_figure(slider_years,dropdown_values):
+    traces_lines = []
+
+
+    risks = list(df_total.risk_renamed.unique())
+    if risks:
+        risks.sort()
+    else:
+        pass
+
+    for risk in risks:
+        df_by_risk= df_total[df_total['risk_renamed'] == risk]
+        category = df_by_risk["category"].iloc[0]
+
+        traces_lines.append(go.Scatter(
+            x=df_by_risk['year'],
+            y=df_by_risk['xy_rank'],
+            text= df_by_risk["text"],
+            mode='lines+markers',
+            opacity=0.2,
+            marker={
+                'size': 15,
+                'line': {'width': 0.5, 'color': 'black'},
+                'color': colors[category],
+                'symbol':'diamond-open'
+            },
+            name=risk,
+            showlegend=False
+        ))
+
+
+    for dropdown_value in dropdown_values:
+        df_filtered = df_total[(df_total.year >= slider_years[0]) & (df_total.year <= slider_years[1])]
+        df_by_risk= df_filtered[df_filtered['risk_renamed'] == dropdown_value]
+        category = df_by_risk["category"].iloc[0]
+        traces_lines.append(go.Scatter(
+            x=df_by_risk['year'],
+            y=df_by_risk['xy_rank'],
+            text= df_by_risk["text"],
+            mode='lines+markers',
+            opacity=1,
+            marker={
+                'size': 15,
+                'line': {'width': 0.5, 'color': 'black'},
+                'color': colors[category],
+                'symbol':'diamond'
+            },
+            showlegend=False)
+        )            
+    
+
+    return {"data":traces_lines,
+            'layout': go.Layout(
+                xaxis={'title': 'year','range': [2012, 2019]},
+                yaxis={'title': 'Rank', 'range': [30,-1]},
+                margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
+                hovermode='closest',
+                modebar={})
+            }
 
 
 
